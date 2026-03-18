@@ -1,0 +1,24 @@
+<span class="post-date">
+  {{ site.data.settings.post_date_prefix }}
+  {% assign q = page.date | date: "%-B"  %}
+  {{ page.date | date: "%d" }}
+  {% case q %}
+    {% when 'May' %}{{ d }}Mai
+    {% when 'March' %}{{ d }}März
+    {% when 'February' %}{{ d }}Februar
+    {% when 'January' %}{{ d }}Januar
+    {% when 'October' %}{{ d }}Oktober
+    {% when 'December' %}{{ d }}Dezember
+    {% when 'July' %}{{ d }}Juli
+    {% when 'June' %}{{ d }}Juni
+    {% else %}{{ q }}{% endcase %}
+  {{ page.date | date: "%Y" }}
+<!--
+  by
+  {% if page.author %}
+    {{ page.author }}
+  {% else %}
+    {{ site.author }}
+  {% endif %}
+-->
+</span>

@@ -1,0 +1,25 @@
+---
+layout: default
+pagination: 
+  enabled: true
+---
+
+{% for post in paginator.posts %}
+  {% if post.categories contains page.category %}
+    {% include featured-post.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.nav_button.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.nav_button.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.nav_button.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.nav_button.next_page }}</span>
+  {% endif %}
+</div>

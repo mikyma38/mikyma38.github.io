@@ -1,0 +1,53 @@
+# Site Build Settings
+url: http://www.mikyma.de
+
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title 
+
+plugins:             [jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Michael Fischer"
+description:	       "Meine kleine Welt"
+author:              "Michael Fischer"
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+
+# wenn kein image im post angezeigt werden soll dann im FrontMatter vom Post
+# show_post_image: 0
+# wenn anderes image als auf der index.html im Post angezeigt werden soll dann im FrontMatter vom Post: 
+# image_p: [bildname]
+# wenn pgnviewer im Post verwendet dann show_diagramm: 1 
+# wie_starten: 1 - pagination und aktuellste Artikel auf Startseite, 
+#              0 nur die Artikel mit xstart >=1  ,im frontmatter des post gesetzt, auf Startseite anzeigen ,sortiert nach Wert xstart 
+#              also z.B im FrontMatter xstart: 1 definieren, xstart: 2 wird an 2 Stelle angezeigt 
+
+defaults:
+ -
+  scope:
+    path: "" 
+  values:
+    show_post_image: 1
+    show_diagramm: 0  
+    author: "Michael Fischer"
+    wie_starten: 1
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - millennial.gemspec
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

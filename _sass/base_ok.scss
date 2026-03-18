@@ -1,0 +1,178 @@
+/*
+  Reset some basic elements
+*/
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Basic styling
+*/
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Body */
+body {
+  font-family: $base-font-family;
+}
+body img {
+  align: middle;
+  margin: 5px auto auto auto;
+  display: block;
+  max-width: 800px;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.65;
+  font-family: $body-font-family;
+}
+
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  font-family: $body-font-family;
+}
+
+ol li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/*
+  Links
+*/
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+/*
+  Blockquote
+*/
+
+blockquote {
+  margin: 10px 20px 10px;
+  padding: 0px 15px;
+  border-left: 0.25em solid #ccc;
+  color: #999;
+  line-height: 1.5;
+}
+
+/**
+ * Tables
+ */
+table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  width: 100%;
+  border: 5px solid black;
+}
+
+th, td {
+  border: 0px solid black;
+}
+th, td {
+  padding:0px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  }
+
+th {
+background-color: black;
+color: white;
+
+border-top: 75px solid white;
+
+}
+
+.fb > * {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.fb {
+  display: flex;
+}
+
+.bild_beschreibung {
+  display:block;
+  background-color: rgb(207, 207, 207);
+  color: #000;
+  padding-bottom:1em ;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  margin-top: 0em;  
+}
+
+.bild_beschreibung b {
+  display:block;
+  font-size:100% ;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pic_image img {
+  width: 50%; /* Initial kleine Größe */  
+    cursor: pointer;
+}
+
+.pic_image img:hover {
+  width: auto;  /* Verdoppelt die Größe, z.B. auf Originalgröße transform: scale(2);*/
+  /* Alternativ: width: auto; height: auto; */
+  position: relative;
+  margin-right: 0%;
+  z-index: 100; /* Stellt sicher, dass es über anderen Elementen liegt */
+}
+
+  
