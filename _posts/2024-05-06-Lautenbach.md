@@ -11,7 +11,7 @@ xstart: 3
 
 <img src="/assets/img/Plakat2024_k.jpg" class="leftFloat" alt="Biker Lautenbach" style="padding-right: 30px;">
 Jedes Jahr am ersten Mai Wochenende veranstalten die  
-Biker Lautenbach  
+BIKER LAUTENBACH
 ein Motorradtreffen der besonderen Art!
 + Freitag und Samstag Abend Live Musik bis in die 'Puppen' 
 + tolles Lagerfeuer
