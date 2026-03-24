@@ -154,13 +154,14 @@ border-top: 75px solid white;
   padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
+  justify-content: space-around;
+}
 .fb > * {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(253 249 249);
     color: rgb(255, 255, 255);
     width: 100%;
-    JUSTIFY-CONTENT: space-around;
 }
 
 .bild_beschreibung b {
