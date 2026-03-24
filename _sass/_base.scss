@@ -136,6 +136,7 @@ border-top: 75px solid white;
   background-color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   width: 100%;
+  justify-content: space-around;
 }
 .fb {
   display: flex;
@@ -151,7 +152,6 @@ border-top: 75px solid white;
   color: #000;
   padding-left: 2em;
   padding-right: 2em;
-  justify-content: space-around;
 }
 
 .bild_beschreibung b {
