@@ -1,9 +1,9 @@
 # Millennial Fork -> MIKYMA
 
  Anpassungen Mikyma:
- *wenn kein image im post angezeigt werden soll dann im FrontMatter vom Post
+* wenn kein image im post angezeigt werden soll dann im FrontMatter vom Post
  show_post_image: 0
- *wenn anderes image als auf der index.html im Post angezeigt werden soll dann im FrontMatter vom Post: 
+* wenn anderes image als auf der index.html im Post angezeigt werden soll dann im FrontMatter vom Post: 
  image_p: [bildname]
 
 * wie_starten: 1 - pagination und aktuellste Artikel auf Startseite, 
