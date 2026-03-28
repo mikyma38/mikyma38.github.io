@@ -13,7 +13,7 @@
               
 * Im Post alle Bilder eines Sets am Ende des Beitrags in 2 Spalten anzeigen -> 
   Bildbeschreibung im Post ueber yaml.datei im Data Verzeichnis einfügen (optional):
-  -im Frontmatter des Post photoset definieren:
+  -im Frontmatter des Post photoset definieren:  
    l_box: true //wenn  Große Bilder für Baguettebox gallery erstellt werden sollen  
    photos:  
      set: (Name des Set)  
