@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "BaguetteBox.js - Gallerie Script"
+title: "BaguetteBox.js - Galerie Script"
 categories: Bits_Bytes
 tags: [Computer,Internet,Jekyll]
 image: baguetteBox.jpg
 ---
 # Endlich geschafft: Eine Lightbox Gallerie in die Webseite integrieren 
 
-Die [Baguettebox Gallerie][1] , geschrieben in reinem javascript , ist wirklich leicht
+Die [Baguettebox Galerie][1] , geschrieben in reinem javascript , ist wirklich leicht
 in Jekyll zu integrieren! lediglich die beiden Dateien aus dem [dist Verzeichnis][3] des reposority per Script Tag ins Dokument laden
 
 ```html
