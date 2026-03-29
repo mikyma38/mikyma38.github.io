@@ -8,8 +8,7 @@ image: baguetteBox.jpg
 # Endlich geschafft: Eine Lightbox Gallerie in die Webseite integrieren 
 
 Die [Baguettebox Gallerie][1] , geschrieben in reinem javascript , ist wirklich leicht
-inJekyll zu integrieren! lediglich die beiden Dateien aus dem dist Verzeichnis 
-per Script Tag ins Dokument laden
+in Jekyll zu integrieren! lediglich die beiden Dateien aus dem [dist Verzeichnis][3] des reposority per Script Tag ins Dokument laden
 
 ```html
 <link rel="stylesheet" href="css/baguetteBox.min.css">
@@ -36,3 +35,4 @@ Vorher hatte ich mal Photswipe probiert , das aber verworfen  da dort mit Javasc
 
 [1]: https://feimosi.github.io/baguetteBox.js/
 [2]: https://github.com/feimosi/baguetteBox.js/blob/dev/README.md
+[3]: https://github.com/feimosi/baguetteBox.js/tree/dev/dist
