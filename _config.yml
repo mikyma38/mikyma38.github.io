@@ -18,8 +18,8 @@ author:              "Michael Fischer"
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/page/:num/'
-  title: ' - seite :num'
+  permalink: '/seite/:num/'
+  title: ' - Seite :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
